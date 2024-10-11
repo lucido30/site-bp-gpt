@@ -1,0 +1,75 @@
+/* Adicione alguns estilos básicos para fazer parecer um sacola de compras */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.carrinho-container {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho-cabecalho {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.carrinho-cabecalho h2 {
+	margin: 0;
+}
+
+.itens-do-carrinho {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.itens-do-carrinho li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.itens-do-carrinho li:last-child {
+	border-bottom: none;
+}
+
+.nome-do-item {
+	font-weight: bold;
+}
+
+.quantidade-do-item {
+	font-size: 16px;
+	color: #666;
+}
+
+.preco-do-item {
+	font-size: 18px;
+	color: #333;
+}
+
+.carrinho-rodape {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.carrinho-rodape button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.carrinho-rodape button:hover {
+	background-color: #3e8e41;
+}
